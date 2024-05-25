@@ -1,0 +1,4 @@
+build*/
+modules/
+services/
+cppcheck_reports/

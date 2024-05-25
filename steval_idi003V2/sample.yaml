@@ -1,0 +1,19 @@
+sample:
+  name: STEVAL-IDI003V2 Sensor Board
+tests:
+  sample.sensor.lis2dh:
+    harness: sensor
+    tags: samples sensor
+    depends_on: i2c lis2dh
+  sample.sensor.hts221:
+    harness: sensor
+    tags: samples sensor
+    depends_on: i2c hts221
+  sample.sensor.lps25hb:
+    harness: sensor
+    tags: samples sensor
+    depends_on: i2c lps25hb
+  sample.sensor.mp34dt01:
+    harness: sensor
+    tags: samples sensor
+    depends_on: i2s mp34dt01
